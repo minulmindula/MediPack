@@ -1,5 +1,5 @@
 
-const local = "http://192.168.1.4:80/FinalProject/backend_Yii/web/index.php?r=api";
+const local = "http://192.168.8.101:80/FinalProject/backend_Yii/web/index.php?r=api";
 // const local = "www.quickpick-lk.com/mediPack_backend/backend_Yii/web/index.php?r=api";
 
 export default {

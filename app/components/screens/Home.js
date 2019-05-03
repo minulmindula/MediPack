@@ -192,15 +192,15 @@ export default class Home extends Component {
       });
     })
 
-    this.timer = setInterval(() => {
-      this.getUserID().then((userID) => {
-        this.nextMedTime(userID);
-        this.getSummaryOfDay(userID);
-        this.setState({
-          userID: JSON.parse(userID)
-        });
-      })
-    }, 3000);
+    // this.timer = setInterval(() => {
+    //   this.getUserID().then((userID) => {
+    //     this.nextMedTime(userID);
+    //     this.getSummaryOfDay(userID);
+    //     this.setState({
+    //       userID: JSON.parse(userID)
+    //     });
+    //   })
+    // }, 3000);
 
     // this.getUserName().then((uname) => {
     //   this.setState({

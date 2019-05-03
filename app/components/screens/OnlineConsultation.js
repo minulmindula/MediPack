@@ -84,7 +84,7 @@ export default class OnlineConsultation extends Component {
        <View style={styles.container}>
 
         <Header
-          leftComponent={{icon:'menu', color:'#919191', onPress: () => this.props.navigation.openDrawer()}}
+          leftComponent={{icon:'menu', color:'#919191', onPress: () => this.props.navigation.openDrawer() }}
           centerComponent={{text: 'Online Consultation', style: {color: 'grey'}}}
           rightComponent={{icon: 'notifications', color: '#919191', onPress: () => alert('Hoi')}}
           backgroundColor='transparent'
